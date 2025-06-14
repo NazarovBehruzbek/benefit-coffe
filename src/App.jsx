@@ -2,19 +2,19 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-white text-gray-800 font-sans">
+    <div className="min-h-screen bg-black text-white font-sans">
       {/* HEADER: Logo */}
-      <header className="p-6 flex justify-center">
+      <header className="p-6 flex justify-center bg-black">
         <img
           src="/logo.png"
           alt="Benefit Coffee Logo"
-          className="h-32 w-auto"
+          className="h-32 w-auto "
         />
       </header>
 
       {/* MAIN: Qisqacha ma'lumot */}
       <main className="px-6 py-12 text-center max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-[#333] mb-4">
+        <h1 className="text-4xl font-bold mb-4">
           BENEFIT COFFEE
         </h1>
       </main>
@@ -23,10 +23,10 @@ const App = () => {
       <footer className="bg-black text-white py-10 px-4 text-center space-y-4">
         <h2 className="text-xl font-semibold">Biz bilan bog'laning</h2>
         <p className="text-sm">
-          📍 Toshkent shahri, Yakkasaroy tumani, Qahramon ko'chasi, 15-uy
+          📍 Toshkent, Shayxontohur tumani, Jarariq dahasi, 1B
         </p>
         <p className="text-sm">
-          ☎️ Telefon: <a href="tel:+998901783533">+998 90 178 35 33</a>
+          ☎️ Telefon: <a href="tel:+998901783533" className="underline">+998 90 178 35 33</a>
         </p>
 
         <div className="w-full max-w-2xl mx-auto rounded-lg overflow-hidden shadow-lg">
