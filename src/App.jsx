@@ -27,7 +27,7 @@ const App = () => {
       <footer className="bg-black text-white py-10 px-4 text-center space-y-4">
         <h2 className="text-xl font-semibold">Biz bilan bog'laning</h2>
         <p className="text-sm">
-          📍 Toshkent shahri, Yakkasaroy tumani, Qahramon ko'chasi, 15-uy
+          📍 Toshkent, Shayxontohur tumani, Jarariq dahasi, 1B
         </p>
 
         <div className="w-full max-w-2xl mx-auto rounded-lg overflow-hidden shadow-lg">
