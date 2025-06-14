@@ -17,10 +17,6 @@ const App = () => {
         <h1 className="text-4xl font-bold text-[#333] mb-4">
           Benefit Coffee – Siz uchun foydali dam!
         </h1>
-        <p className="text-lg text-gray-600 leading-relaxed">
-          Bizning missiyamiz – sizni har bir qultumda eng yaxshi ta’m va energiya bilan ta’minlash.
-          Tabiiy mahsulotlar, zamonaviy texnologiya va doimiy xizmat – Toza energiya va yaxshi kayfiyat — har kuni Benefit Coffee bilan!
-        </p>
       </main>
 
       {/* FOOTER: Lokatsiya + Yandex Map */}
