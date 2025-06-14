@@ -15,7 +15,7 @@ const App = () => {
       {/* MAIN: Qisqacha ma'lumot */}
       <main className="px-6 py-12 text-center max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-[#333] mb-4">
-          Benefit Coffee – Siz uchun foydali dam!
+          BENEFIT COFFEE
         </h1>
       </main>
 
@@ -23,7 +23,10 @@ const App = () => {
       <footer className="bg-black text-white py-10 px-4 text-center space-y-4">
         <h2 className="text-xl font-semibold">Biz bilan bog'laning</h2>
         <p className="text-sm">
-          📍 Toshkent, Shayxontohur tumani, Jarariq dahasi, 1B
+          📍 Toshkent shahri, Yakkasaroy tumani, Qahramon ko'chasi, 15-uy
+        </p>
+        <p className="text-sm">
+          ☎️ Telefon: <a href="tel:+998901783533">+998 90 178 35 33</a>
         </p>
 
         <div className="w-full max-w-2xl mx-auto rounded-lg overflow-hidden shadow-lg">
