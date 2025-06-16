@@ -32,7 +32,7 @@ const App = () => {
           <div className="flex items-center gap-2 justify-center">
             <PhoneIcon />
             <a href="tel:+998901783533" className="underline">
-              +998 90 178 35 33
+              +998 94 334 22 52
             </a>
           </div>
 
