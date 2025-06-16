@@ -13,12 +13,12 @@ const App = () => {
       </header>
 
       {/* MAIN: Qisqacha ma'lumot */}
-      <main className="px-6 py-12 text-center max-w-3xl mx-auto">
+      <main className="px-6 py-6 text-center max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold mb-4">BENEFIT COFFEE</h1>
       </main>
 
       {/* FOOTER: Lokatsiya + Yandex Map */}
-      <footer className="bg-black text-white py-10 px-4 text-center space-y-6">
+      <footer className="bg-black text-white py-4 px-4 text-center space-y-6">
         <h2 className="text-xl font-semibold">Biz bilan bog'laning</h2>
 
         {/* Location */}
