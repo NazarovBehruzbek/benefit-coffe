@@ -45,7 +45,7 @@ const App = () => {
               rel="noopener noreferrer"
               className="underline"
             >
-              @benefitcoffee
+              @BENEFIT COFFEE
             </a>
           </div>
         </div>
