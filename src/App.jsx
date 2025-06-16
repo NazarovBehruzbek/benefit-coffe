@@ -40,7 +40,7 @@ const App = () => {
           <div className="flex items-center gap-2 justify-center">
             <InstagramIcon />
             <a
-              href="https://instagram.com/benefitcoffee"
+              href="https://instagram.com/benefit_coffee_"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
