@@ -20,8 +20,8 @@ const App = () => {
       {/* FOOTER: Lokatsiya + Yandex Map */}
       <footer className="bg-black text-white py-4 px-4">
         <h2 className="text-xl font-semibold text-center mb-4">Biz bilan bog'laning</h2>
-        {/* Social Media Links */}
-        <div className="flex flex-col items-center md:flex-row md:justify-center gap-6 mt-8 text-sm">
+           {/* Social Media Links */}
+           <div className="flex flex-col items-center md:flex-row md:justify-center gap-6 mt-8 text-sm">
           {/* Instagram */}
           <div className="flex items-center gap-2">
             <InstagramIcon />
@@ -72,12 +72,12 @@ const App = () => {
                     height="100%"
                     frameBorder="0"
                     allowFullScreen
-                    title="Benefit Coffee - 1-я локация"
+                    title="Benefit Coffee - 1-Manzil"
                     className="absolute top-0 left-0 w-full h-full"
                   ></iframe>
                 </div>
               </div>
-
+           
             </div>
 
             {/* Second Location */}
@@ -96,12 +96,12 @@ const App = () => {
               <div className="rounded-lg overflow-hidden shadow-lg mb-2">
                 <div className="relative h-72 w-full sm:max-w-[60%] mx-auto">
                   <iframe
-                    src="https://yandex.uz/map-widget/v1/?ll=69.249155%2C41.340671&pt=69.249155%2C41.340671&z=16"
+                    src="https://yandex.uz/map-widget/v1/org/benefit_coffee/215213962084/?ll=69.253088%2C41.339096&z=15"
                     width="100%"
                     height="100%"
                     frameBorder="0"
                     allowFullScreen
-                    title="Benefit Coffee - 2-я локация"
+                    title="Benefit Coffee - 2-Manzil"
                     className="absolute top-0 left-0 w-full h-full"
                   ></iframe>
                 </div>
@@ -110,9 +110,9 @@ const App = () => {
           </div>
         </div>
 
+     
 
-
-
+ 
       </footer>
     </div>
   );
@@ -154,14 +154,14 @@ const LocationIcon = () => (
 );
 
 const TelegramIcon = () => (
-  <svg
-    className="w-5 h-5"
-    viewBox="0 0 24 24"
-    fill="none"
+  <svg 
+    className="w-5 h-5" 
+    viewBox="0 0 24 24" 
+    fill="none" 
     xmlns="http://www.w3.org/2000/svg"
   >
-    <path
-      d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM15.89 8.31L14.5 15.7C14.37 16.45 13.99 16.59 13.37 16.26L10.8 14.3L9.53 15.55C9.37 15.71 9.24 15.84 8.94 15.84L9.19 13.24L13.88 9.12C14.09 8.93 13.83 8.83 13.55 9.02L7.74 12.6L5.19 11.81C4.45 11.6 4.43 11.18 5.33 10.81L15.17 6.5C15.77 6.25 16.29 6.57 16.1 7.32L15.89 8.31Z"
+    <path 
+      d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM15.89 8.31L14.5 15.7C14.37 16.45 13.99 16.59 13.37 16.26L10.8 14.3L9.53 15.55C9.37 15.71 9.24 15.84 8.94 15.84L9.19 13.24L13.88 9.12C14.09 8.93 13.83 8.83 13.55 9.02L7.74 12.6L5.19 11.81C4.45 11.6 4.43 11.18 5.33 10.81L15.17 6.5C15.77 6.25 16.29 6.57 16.1 7.32L15.89 8.31Z" 
       fill="currentColor"
     />
   </svg>
